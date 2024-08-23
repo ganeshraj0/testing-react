@@ -45,6 +45,11 @@ function App() {
   return (
     <div className="App">
     <Header />
+    <AddItem
+        newItem={newItem}
+        setNewItem={setNewItem}
+        sumitItem={sumitItem}
+      />
     </div>
   );
 }

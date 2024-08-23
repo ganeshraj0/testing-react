@@ -51,13 +51,8 @@ function App() {
         sumitItem={sumitItem}
       />
       <SearchItem search={search} setSearch={setSearch} />
-      <Contant
-        item={item.filter((items) =>
-          items.items.toLowerCase().includes(search.toLowerCase())
-        )}
-        handeling={handeling}
-        deletefun={deletefun}
-      />
+      
+      <Footer length={item.length} />
     </div>
   );
 }

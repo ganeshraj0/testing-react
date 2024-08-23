@@ -50,6 +50,7 @@ function App() {
         setNewItem={setNewItem}
         sumitItem={sumitItem}
       />
+      <SearchItem search={search} setSearch={setSearch} />
     </div>
   );
 }
